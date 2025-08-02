@@ -1,5 +1,5 @@
 
-# 🌐 weHub – The Open Web Template Hub
+# 🌐 webhub – The Open Web Template Hub
 
 **weHub** is a community-powered open-source platform to **showcase, explore, and download web templates** built using HTML, CSS, JS, and modern libraries like Tailwind CSS. It's a library of frontend website templates anyone can browse, contribute to, or clone for their own projects.
 
@@ -88,5 +88,47 @@ Want to add your own site?
   ]
 }
 ```
+---
 
-Let me know if you want the actual HTML/CSS for the card or detail page again, or the `main.js` and `detail.js` scripts optimized.
+## ✨ Roadmap
+
+* [x] Responsive card UI for templates
+* [x] Dynamic detail view
+* [x] Theme toggle (light/dark)
+* [x] JSON-driven architecture
+* [ ] Deployment via GitHub Pages / Netlify
+* [ ] Add template rating/stars
+* [ ] Contributor leaderboard
+* [ ] Search by author / tags
+
+---
+
+## 📚 Technologies Used
+
+* **HTML5**
+* **Tailwind CSS**
+* **JavaScript (Vanilla)**
+* **Alpine.js** (optional per template)
+* **JSON** for dynamic metadata loading
+
+---
+
+## 🧑‍💻 Contributors
+
+We appreciate your contributions! All contributors will be listed in the `CONTRIBUTORS.md` soon.
+
+---
+
+## 🛡️ License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 💬 Community
+
+* Submit templates, raise issues, or suggest features
+* Tweet about your contributions with `#webhub`
+* Join our Discord (coming soon)
+
+---
