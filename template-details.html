@@ -150,8 +150,6 @@
     document.getElementById("footer").innerHTML = getFooterHTML();
   </script>
 
-  <script src="../assets/js/nav_footer_loader.js"></script>
-
   <script>
     const folder = new URLSearchParams(location.search).get('id');
     const container = document.getElementById("templateContainer");
@@ -220,7 +218,7 @@
             }" role="group" aria-roledescription="slide" aria-label="Slide ${
                 idx + 1
               } of ${images.length}">
-              <img src="../templates/${folder}/${img}" alt="${altText} screenshot ${
+              <img src="templates/${folder}/${img}" alt="${altText} screenshot ${
                 idx + 1
               }" class="w-full object-cover rounded-lg" loading="lazy" />
             </div>`
@@ -232,7 +230,7 @@
       </div>`;
     }
 
-    fetch(`../templates/${folder}/metadata.json`)
+    fetch(`templates/${folder}/metadata.json`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch metadata");
         return res.json();
@@ -278,7 +276,7 @@
             </section>
 
             <section class="flex gap-4">
-              <a href="../templates/${folder}/${data.liveUrl}" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400" rel="noopener">
+              <a href="templates/${folder}/${data.liveUrl}" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400" rel="noopener">
                 Live Preview
               </a>
               <a href="${data.sourceUrl}" target="_blank" class="bg-gray-700 text-white px-6 py-3 rounded hover:bg-gray-800 transition font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-gray-700" rel="noopener">

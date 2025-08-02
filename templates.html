@@ -182,7 +182,7 @@
     const pageSize = 6;
 
     // Populate filters and handle events
-    fetch("../templates/templates.json")
+    fetch("templates/templates.json")
       .then(res => res.json())
       .then(data => {
         templates = data.templates;
