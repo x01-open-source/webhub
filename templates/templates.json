@@ -148,8 +148,37 @@
         "Vanilla JS",
         "Google Fonts"
       ]
+    },
+    {
+      "name": "Elite Motors",
+      "description": "Premium car collection website showcasing luxury, sports, and electric vehicles.",
+      "folder": "Elite-Motors",
+      "tags": [
+        "cars",
+        "luxury",
+        "sports",
+        "electric",
+        "business",
+        "automotive",
+        "portfolio",
+        "services"
+      ],
+      "author": "arsh0coder",
+      "previewImage": "./templates/Elite-Motors/assets/1.png",
+      "liveUrl": "Elite-Motors/index.html",
+      "sourceUrl": "https://github.com/webhub/Elite-Motors",
+      "license": "MIT",
+      "created": "2025-09-06",
+      "featured": true,
+      "category": "Business",
+      "difficulty": "Intermediate",
+      "techStack": [
+        "HTML",
+        "Tailwind CSS",
+        "Font Awesome",
+        "Vanilla JS",
+        "Google Fonts"
+      ]
     }
   ]
-
 }
-
