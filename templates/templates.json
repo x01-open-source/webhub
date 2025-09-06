@@ -132,7 +132,7 @@
         "services"
       ],
       "author": "arsh0coder",
-      "previewImage": "./Elite-Tailors/assets/1.png",
+      "previewImage": "./templates/Elite-Tailors/assets/1.png",
       "liveUrl": "Elite-Tailors/index.html",
       "sourceUrl": "https://github.com/webhub/Elite-Tailors",
       "license": "MIT",
@@ -152,3 +152,4 @@
   ]
 
 }
+
